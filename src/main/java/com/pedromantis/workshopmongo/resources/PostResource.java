@@ -23,6 +23,6 @@ public class PostResource {
         Post obj = postService.findById(id);
         return ResponseEntity.ok().body(obj);
     }
-    
+
 
 }
